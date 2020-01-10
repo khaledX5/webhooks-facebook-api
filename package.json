@@ -1,0 +1,38 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sol-era/pvm-api-gateway.git"
+  },
+  "author": "khaled karam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sol-era/pvm-api-gateway/issues"
+  },
+  "homepage": "https://github.com/sol-era/pvm-api-gateway#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "mqtt": "^3.0.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.3",
+    "sequelize-cli": "^5.5.1",
+    "winston": "^3.2.1"
+  }
+}

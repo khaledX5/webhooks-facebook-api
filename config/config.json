@@ -1,0 +1,48 @@
+
+{
+
+
+    "development": {
+        "username": "khaled",
+        "password": "khaled",
+        "database": "khaled",
+        "host": "localhost",
+        "dialect": "mysql",
+        "config_id": "development",
+        "app_name": "my app",
+        "app_desc": "my app desc",
+        "node_port": 3002,
+        "json_indentation": 4
+    },
+    "test": {
+        "username": "khaled",
+        "password": "khaled",
+        "database": "khaled",
+        "host": "localhost",
+        "dialect": "mysql",
+        "config_id": "testing"
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8080,
+        "username": "khaled",
+        "password": "khaled",
+        "database": "khaled",
+        "host": "localhost",
+        "dialect": "mysql"
+    },
+      "Mysql":{
+        "host": "localhost",
+        "user": "khaled",
+        "password": "khaled",
+        "database": "khaled",
+        "port":3306
+    },
+    "Mqtt":{ 
+        "host":"localhost",
+        "username":"",
+        "password":"",
+        "port":1883
+    }
+
+}
