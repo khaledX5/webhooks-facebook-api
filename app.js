@@ -17,7 +17,7 @@ app.use(morgan('combined', {stream: accessLogStream}));
 
 app.use(bodyParser.json());
 
-app.use('/v1', routes);
+app.use('/', routes);
 
 //app.use(global.gConfig.config_id);
 app.use(express.json());
